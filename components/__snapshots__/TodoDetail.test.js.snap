@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The TodoDetail component renders without crashing 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flex": 1,
+      "justifyContent": "center",
+      "marginLeft": 16,
+      "marginRight": 16,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 30,
+      }
+    }
+  >
+    test title
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 18,
+      }
+    }
+  >
+    Create at: 
+     
+    1970-01-01 00:00:00
+  </Text>
+</View>
+`;
+
+exports[`The TodoDetail component return null when no item in route 1`] = `null`;

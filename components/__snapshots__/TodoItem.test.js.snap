@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The TodoItem component renders without crashing 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "rgba(255, 255, 255, 0.8)",
+      "borderWidth": 2,
+      "flexDirection": "row",
+      "margin": 8,
+      "padding": 8,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "flex": 6,
+          "flexDirection": "row",
+        },
+        Object {
+          "borderColor": "#ff0000",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginLeft": 8,
+          "marginRight": 8,
+          "padding": 8,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 20,
+            }
+          }
+        >
+          test title
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Icon
+      color="green"
+      name="check"
+      size={40}
+    />
+  </View>
+</View>
+`;
