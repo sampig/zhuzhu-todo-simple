@@ -3,7 +3,7 @@
     "name": "zhuzhu To-do Simple",
     "description": "zhuzhu to-do application (the simple version).",
     "slug": "zhuzhuTodoSimple",
-    "platforms": ["ios", "android", "web"],
+    "platforms": ["android", "ios", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/todo_icon.png",
@@ -19,6 +19,8 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "org.zhuzhu.todoSimple",
+      "buildNumber": "1.0.0",
       "infoPlist": {
         "CFBundleAllowMixedLocalizations": true
       },
@@ -28,7 +30,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/todo_icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "org.zhuzhu.todoSimple",
+      "permissions": [],
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/todo_favicon.png"
