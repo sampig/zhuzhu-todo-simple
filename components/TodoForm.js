@@ -46,6 +46,7 @@ function TodoForm ({ addNewTodo }) {
       />
       <Button
         title='   +   '
+        disabled={todoValue === ''}
         onPress={submitAdd}
       />
     </View>
