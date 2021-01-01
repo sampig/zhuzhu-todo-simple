@@ -21,6 +21,7 @@
     "ios": {
       "bundleIdentifier": "org.zhuzhu.todoSimple",
       "buildNumber": "1.0.1",
+      "icon": "./assets/todo_icon_ios.png",
       "infoPlist": {
         "CFBundleAllowMixedLocalizations": true
       },
