@@ -7,7 +7,11 @@ You can try it in Browser or build it on Android or Apple platform.
 
 ## App Online
 
-<a href="https://play.google.com/store/apps/details?id=org.zhuzhu.todoSimple"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" align="left" height="50" width="130" /></a>
+<a href="https://play.google.com/store/apps/details?id=org.zhuzhu.todoSimple">
+  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="50" width="130" alt="Get it on Google Play" />
+</a>
+
+Other Platforms are not available yet.
 
 
 ## Libraries
