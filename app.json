@@ -38,7 +38,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "org.zhuzhu.todoSimple",
-      "permissions": [],
+      "permissions": ["com.google.android.gms.permission.AD_ID"],
       "versionCode": 3
     },
     "web": {
