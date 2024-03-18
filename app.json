@@ -8,7 +8,7 @@
       "ios",
       "web"
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/todo_icon.png",
     "splash": {
@@ -39,7 +39,7 @@
       },
       "package": "org.zhuzhu.todoSimple",
       "permissions": [],
-      "versionCode": 2
+      "versionCode": 3
     },
     "web": {
       "favicon": "./assets/todo_favicon.png"
@@ -53,6 +53,6 @@
       }
     },
     "owner": "sampig",
-    "runtimeVersion": "1.0.0"
+    "runtimeVersion": "1.0.2"
   }
 }
