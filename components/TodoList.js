@@ -88,6 +88,8 @@ function TodoList ({ navigation }) {
         data={todos}
         renderItem={renderItem}
         keyExtractor={item => item.id}
+        initialNumToRender={10} // Render only the first 10 items initially
+        windowSize={5} // Adjust the number of items rendered outside the viewport
       />
       {buttonsBottom()}
     </>

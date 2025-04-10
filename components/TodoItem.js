@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { Alert, Platform, StyleSheet, Text, TouchableHighlight, View } from 'react-native'
 import MaterialIcons from '@expo/vector-icons/MaterialIcons'
 import i18n from 'util/i18n-utils'
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
  * @returns {node}              - React node
  * @constructor
  */
-function TodoItem ({ todoItem, navigation, removeTodo }) {
+const TodoItem = memo(({ todoItem, navigation, removeTodo }) => {
   const current = Date.now()
   const diff = current - todoItem?.createTime
   const colors = {
@@ -157,6 +157,6 @@ function TodoItem ({ todoItem, navigation, removeTodo }) {
       </TouchableHighlight>
     </View>
   )
-}
+})
 
 export default TodoItem

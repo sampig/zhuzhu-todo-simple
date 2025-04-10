@@ -9,6 +9,11 @@ npm-debug.*
 *.orig.*
 web-build/
 coverage/
+ios/
+android/
+*.apk
+*.aab
+*.keystore
 
 npm-debug.log*
 yarn-debug.log*

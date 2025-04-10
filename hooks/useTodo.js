@@ -15,9 +15,13 @@ const useTodo = () => {
    * @returns {function} - operation
    */
   const loadTodos = async () => {
-    const data = await AsyncStorage.getItem(storeName)
-    if (data) {
-      setTodos(JSON.parse(data))
+    try {
+      const data = await AsyncStorage.getItem(storeName)
+      if (data) {
+        setTodos(JSON.parse(data))
+      }
+    } catch (error) {
+      console.error('Failed to load todos:', error)
     }
   }
 

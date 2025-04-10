@@ -29,8 +29,9 @@ function TodoForm ({ addNewTodo }) {
   const inputRef = useRef()
 
   const submitAdd = useCallback(() => {
+    if (!todoValue.trim()) return
     inputRef?.current.blur()
-    addNewTodo(todoValue)
+    addNewTodo(todoValue.trim())
     setTodoValue('')
   }, [inputRef, addNewTodo, todoValue, setTodoValue])
 

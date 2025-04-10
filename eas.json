@@ -22,6 +22,11 @@
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "/Users/zhuc/Documents/personal_info/pc-api-8743302700774778637-862-c5475392d2b4.json",
+        "track": "internal"
+      }
+    }
   }
 }
