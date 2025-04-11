@@ -8,7 +8,7 @@
       "ios",
       "web"
     ],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/todo_icon.png",
     "splash": {
@@ -38,8 +38,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "org.zhuzhu.todoSimple",
-      "permissions": ["com.google.android.gms.permission.AD_ID"],
-      "versionCode": 4
+      "permissions": ["com.google.android.gms.permission.AD_ID"]
     },
     "web": {
       "favicon": "./assets/todo_favicon.png"
@@ -53,6 +52,6 @@
       }
     },
     "owner": "sampig",
-    "runtimeVersion": "1.0.3"
+    "runtimeVersion": "1.0.4"
   }
 }
