@@ -13,6 +13,7 @@ You can try it in Browser or build it on Android or Apple platform.
 
 Other Platforms are not available yet.
 
+Privacy Policy: https://sampig.github.io/projects/2020/12/21/zhuzhu-todo-simple
 
 ## Libraries
 
