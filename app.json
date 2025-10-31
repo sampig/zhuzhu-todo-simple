@@ -38,13 +38,16 @@
         "backgroundColor": "#ffffff"
       },
       "package": "org.zhuzhu.todoSimple",
-      "permissions": ["com.google.android.gms.permission.AD_ID"]
+      "permissions": [
+        "com.google.android.gms.permission.AD_ID"
+      ]
     },
     "web": {
       "favicon": "./assets/todo_favicon.png"
     },
     "plugins": [
-      "expo-localization"
+      "expo-localization",
+      "expo-font"
     ],
     "extra": {
       "eas": {
