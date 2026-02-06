@@ -4,6 +4,13 @@ zhuzhu To-do: a simple app developed on `Expo` framework.
 
 You can try it in Browser or build it on Android or Apple platform.
 
+<p align="center">
+
+[![Latest release](https://img.shields.io/github/v/release/sampig/zhuzhu-todo-simple?style=flat-square)](https://github.com/sampig/zhuzhu-todo-simple/releases)
+[![CI](https://github.com/sampig/zhuzhu-todo-simple/actions/workflows/ci.yml/badge.svg)](https://github.com/sampig/zhuzhu-todo-simple/actions/workflows/ci.yml)
+[![Build status](https://img.shields.io/github/actions/workflow/status/sampig/zhuzhu-todo-simple/ci.yml?branch=master&style=flat-square)](https://github.com/sampig/zhuzhu-todo-simple/actions)
+
+</p>
 
 ## App Online
 
