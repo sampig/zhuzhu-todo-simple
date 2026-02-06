@@ -9,6 +9,8 @@ npm-debug.*
 *.orig.*
 web-build/
 coverage/
+test-results/
+
 ios/
 android/
 *.apk
@@ -27,3 +29,5 @@ yarn-error.log*
 
 # VS Code
 .vscode/
+
+eas.json
