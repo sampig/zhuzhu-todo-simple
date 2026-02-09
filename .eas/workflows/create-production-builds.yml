@@ -1,0 +1,13 @@
+name: Expo Workflow Create Production Builds
+
+on:
+  push:
+    # Only trigger on tags that start with "v" (e.g., v1.0.0)
+    tags: ['v*']
+
+jobs:
+  build_android:
+    name: Build Android in Expo workflow
+    type: build # This job type creates a production build for Android
+    params:
+      platform: android
